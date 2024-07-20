@@ -3,18 +3,19 @@ Simple website demonstrating WebRTC
 
 ## Usage
 1. Clone this repo
-2. Put certificates inside `certs/domain.cert.pem` and `private.key.pem`.
+2. Put SSL certificates inside `certs/domain.cert.pem` and `certs/private.key.pem`.
 3. Install Node.js dependencies by `npm install`.
 4. Run server side code by `node index.js`.
+5. Visit https://your-server-hostname:3001/ on your browser to use the website.
 
 ## References
-The source codes are highly inspired from this tutorial and its example codes:
-[Real time communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web)
-[googlecodelabs/webrtc-web: Realtime communication with WebRTC](https://github.com/googlecodelabs/webrtc-web)
+The source codes are highly inspired by this tutorial and its example codes:  
+- [Real time communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web)
+- [googlecodelabs/webrtc-web: Realtime communication with WebRTC](https://github.com/googlecodelabs/webrtc-web)
 
 ## Apache License 2.0
 This repository uses part of the following component, it is licensed under Apache Liscense 2.0 reproduced below:
-**googlecodelabs/webrtc-web**: Copyright 2020 Google Codelabs
+- **[googlecodelabs/webrtc-web](https://github.com/googlecodelabs/webrtc-web)**: Copyright 2020 Google Codelabs
 
 ```
                                  Apache License
